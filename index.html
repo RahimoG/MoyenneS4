@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container flexCneter">
+        <h1>Calcule Moyenne S4</h1>
+        <form class="flexCneter" onsubmit="return false">
+            <div class="classM">
+                <div class="module">
+                    <h4>Base De Donner :</h4>
+                    <div>
+                        <label>TD  : </label> <input type="number" max="20" min="0" step="0.25" value="0" id="BDDTD" required>
+                        <label>TP  : </label> <input type="number" max="20" min="0" step="0.01" value="0" id="BDDTP" required>
+                        <label>Exam  : </label> <input type="number" max="20" min="0" step="0.01" value="0" id="BDDEXAM" required>
+                    </div>
+                </div>
+                <div class="module">
+                    <h4>Reseau :</h4>
+                    <div>
+                        <label>TD  : </label> <input type="number" max="20" min="0" step="0.01" value="0" id="RETD" required>
+                        <label>TP  : </label> <input type="number" max="20" min="0" step="0.01" value="0" id="RETP" required>
+                        <label>Exam  : </label> <input type="number" max="20" min="0" step="0.01" value="0" id="REEXAM" required>
+                    </div>
+                </div>
+            </div>
+            <div class="classM">
+                <div class="module">
+                    <h4>System D'exploitation :</h4>
+                    <div>
+                        <label>TD  : </label> <input type="number" max="20" min="0" step="0.01" value="0" id="SETD" required>
+                        <label>TP  : </label> <input type="number" max="20" min="0" step="0.01" value="0" id="SETP" required>
+                        <label>Exam  : </label> <input type="number" max="20" min="0" step="0.01" value="0" id="SEEXAM" required>
+                    </div>
+                </div>
+                <div class="module">
+                    <h4>Théorie de Language :</h4>
+                    <div>
+                        <label>TD  : </label> <input type="number" max="20" min="0" step="0.01" value="0" id="TLTD" required>
+                        <label>Exam  : </label> <input type="number" max="20" min="0" step="0.01" value="0" id="TLEXAM" required>
+                    </div>
+                </div>
+            </div>
+            <div class="classM">
+                <div class="module">
+                    <h4>Programation Orienter Object :</h4>
+                    <div>
+                        <label>TD  : </label> <input type="number" max="20" min="0" step="0.01" value="0" id="POOTP" required>
+                        <label>Exam  : </label> <input type="number" max="20" min="0" step="0.01" value="0" id="POOEXAM" required>
+                    </div>
+                </div>
+                <div class="module">
+                    <h4>Devlompent Web :</h4>
+                    <div>
+                        <label>TP  : </label> <input type="number" max="20" min="0" step="0.01" value="0" id="DWTP" required>
+                        <label>Exam  : </label> <input type="number" max="20" min="0" step="0.01" value="0" id="DWEXAM" required>
+                    </div>
+                </div>
+            </div>
+            <div class="module">
+                <h4>Anglais :</h4>
+                <div>
+                    <label>Exam  : </label> <input type="number" max="20" min="0" step="0.01" value="0" id="ANGEXAM" required>
+                </div>
+            </div>
+            <div>
+                <div class="moyen">
+                    <h3>La moyenne est : <span id="moy">00.00</span> </h3>
+                </div>
+            </div>
+            <button type="submit" id="calcul">Calculer</button>
+        </form>
+        
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

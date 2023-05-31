@@ -1,0 +1,88 @@
+*{
+    font-family: poppins;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background: url(assets/background.jpg) fixed;
+    background-size: cover;
+    min-height: 99vh;
+    
+}
+.container{
+    width: fit-content;
+    padding: 30px 50px;
+    margin: 0 2%;
+    background-color: #ffffffda;
+    border-radius: 13px;
+    color: #000000d2;
+}
+.container h1{
+    margin: 0px;
+}
+.flexCneter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.module{
+    background-color: rgb(211, 211, 211);
+    border-radius: 2px;
+    width: 550px;
+    margin: 10px;   
+    margin-left: 5px;
+    box-shadow: 1px 1px 3px rgb(127, 127, 127);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.module h4{
+    font-size: 20px;
+}
+
+.module label{
+    margin: 0 5px;
+    font-size: 18px;
+}
+.module div{
+    margin-bottom: 15px;
+}
+.module input{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 25px;
+    background-color: #adadadd2;
+    margin-right: 10px;
+    padding-left: 7px;
+}
+
+#calcul{
+    background: rgb(127, 127, 127);
+    color: #fff;
+    height: 60px;
+    width: 250px;
+    border-radius: 40px;
+    outline: 0;
+    cursor: pointer;
+    transition: background .4s;
+    border: 3px solid rgb(127, 127, 127);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+#calcul:hover{
+    background: #fff;
+    color: rgb(127, 127, 127);
+}
+
+.classM{
+    display: flex;
+    flex-direction: row;
+}
